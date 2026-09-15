@@ -1,0 +1,27 @@
+{
+  "_": "球权并进状态（/1、/2 → /3）的对拍向量。Node 与 Swift 各跑一遍这同一份，结果必须逐字相同。",
+  "_why": "两个实现各写各的迁移，是 2026-09-11 真出过的 bug：outbox 并入那条路 Swift 侧漏了迁移，手机上按的「了结」两侧并出两个不同的状态，而且不报错。加向量是为了让它不可能再悄悄分叉。",
+  "vectors": [
+    { "name": "closed 原样",              "in": { "state": "closed", "status": "doing" },   "status": "closed" },
+    { "name": "being → doing",            "in": { "state": "being",  "status": "todo" },    "status": "doing" },
+    { "name": "mine 保持原状态",          "in": { "state": "mine",   "status": "pending" }, "status": "pending" },
+    { "name": "mine 且没写过状态 → todo", "in": { "state": "mine" },                        "status": "todo" },
+    { "name": "v1 inbox → doing",         "in": { "state": "inbox",  "status": "todo" },    "status": "doing" },
+    { "name": "v1 doing → doing",         "in": { "state": "doing" },                       "status": "doing" },
+    { "name": "v1 decide 保持原状态",     "in": { "state": "decide", "status": "doing" },   "status": "doing" },
+    { "name": "v1 todo 且没状态 → todo",  "in": { "state": "todo" },                        "status": "todo" },
+    { "name": "认不出的球权 → 保持状态",  "in": { "state": "weird",  "status": "pending" }, "status": "pending" },
+    { "name": "认不出的状态 → todo",      "in": { "state": "mine",   "status": "garbage" }, "status": "todo" },
+    { "name": "球权映射赢过烂状态",       "in": { "state": "closed", "status": "garbage" }, "status": "closed" },
+    { "name": "已经是 /3，幂等",          "in": { "status": "closed" },                     "status": "closed" },
+    { "name": "球权的人锁搬到 status",
+      "in": { "state": "closed", "lastWriter": { "state": "human" } },
+      "status": "closed", "lastWriter": { "status": "human" } },
+    { "name": "status 已有锁就不动它",
+      "in": { "state": "closed", "lastWriter": { "state": "human", "status": "being" } },
+      "status": "closed", "lastWriter": { "status": "being" } },
+    { "name": "撤掉的字段不留锁",
+      "in": { "state": "mine", "lastWriter": { "next": "being", "scores": "human", "links": "being", "tier": "human" } },
+      "status": "todo", "lastWriter": { "tier": "human" } }
+  ]
+}
