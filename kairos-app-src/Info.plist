@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key><string>Kairos</string>
+    <key>CFBundleDisplayName</key><string>Kairos</string>
+    <key>CFBundleIdentifier</key><string>com.kairos.app</string>
+    <key>CFBundleExecutable</key><string>kairos</string>
+    <key>CFBundleIconFile</key><string>AppIcon</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleShortVersionString</key><string>2.5.7</string>
+    <key>CFBundleVersion</key><string>1</string>
+    <key>LSMinimumSystemVersion</key><string>26.0</string>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>NSPrincipalClass</key><string>NSApplication</string>
+    <key>NSAppTransportSecurity</key>
+    <dict><key>NSAllowsLocalNetworking</key><true/></dict>
+    <!-- 拖拽用的两个自定义类型。`UTType(exportedAs:)` 指的就是「本 app 导出的类型」——
+         不在这儿声明，系统只当它是个临时的动态类型，跨窗口/跨进程的拖拽会静默失灵。
+         com.kairos.items 一直没声明也能用（同一个进程内拖），但那是运气，不是设计。 -->
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+        <dict>
+            <key>UTTypeIdentifier</key><string>com.kairos.items</string>
+            <key>UTTypeDescription</key><string>Kairos 待办</string>
+            <key>UTTypeConformsTo</key><array><string>public.data</string></array>
+            <key>UTTypeTagSpecification</key><dict/>
+        </dict>
+        <dict>
+            <key>UTTypeIdentifier</key><string>com.kairos.projects</string>
+            <key>UTTypeDescription</key><string>Kairos 项目</string>
+            <key>UTTypeConformsTo</key><array><string>public.data</string></array>
+            <key>UTTypeTagSpecification</key><dict/>
+        </dict>
+    </array>
+</dict>
+</plist>
