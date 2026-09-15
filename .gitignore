@@ -1,0 +1,14 @@
+.DS_Store
+*.dmg
+build/
+*.sync-conflict-*
+*.bak*
+_proj_test*.mjs
+ABS/
+*.app/
+.superpowers/
+xcuserdata/
+make-dmg.sh
+make-zip.sh
+dist/
+.mdg-*
