@@ -1,0 +1,12 @@
+.DS_Store
+*.dmg
+build/
+*.sync-conflict-*
+*.bak*
+_proj_test*.mjs
+ABS/
+*.app/
+.superpowers/
+xcuserdata/
+dist/
+.mdg-*

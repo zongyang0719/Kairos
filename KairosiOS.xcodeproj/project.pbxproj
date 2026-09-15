@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0000000000000000000013 /* KairosModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000001 /* KairosModels.swift */; };
+		CA0000000000000000000014 /* KairosStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000002 /* KairosStore.swift */; };
+		CA0000000000000000000015 /* KairosSyncEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000003 /* KairosSyncEngine.swift */; };
+		CA0000000000000000000016 /* BeingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000004 /* BeingClient.swift */; };
+		CA0000000000000000000017 /* KairosWorkspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000005 /* KairosWorkspace.swift */; };
+		CA0000000000000000000018 /* KairosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000006 /* KairosApp.swift */; };
+		CA0000000000000000000019 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000007 /* RootView.swift */; };
+		CA0000000000000000000020 /* LaneListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000008 /* LaneListView.swift */; };
+		CA0000000000000000000021 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000009 /* ItemDetailView.swift */; };
+		CA0000000000000000000023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000011 /* Assets.xcassets */; };
+		CA0000000000000000000043 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000042 /* SettingsView.swift */; };
+		CA0000000000000000000057 /* ItemsCompose.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000056 /* ItemsCompose.swift */; };
+		CA0000000000000000000059 /* CloudWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000058 /* CloudWatcher.swift */; };
+		CA0000000000000000000045 /* SharedProjectionFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000044 /* SharedProjectionFile.swift */; };
+		CA0000000000000000000049 /* KairosRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000048 /* KairosRooms.swift */; };
+		CA0000000000000000000063 /* KairosMarkdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000062 /* KairosMarkdown.swift */; };
+		CA0000000000000000000051 /* KairosOutbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000050 /* KairosOutbox.swift */; };
+		CA0000000000000000000047 /* KairosLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000046 /* KairosLedger.swift */; };
+		CA0000000000000000000061 /* KairosLedgerRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000060 /* KairosLedgerRound.swift */; };
+		CA0000000000000000000071 /* KairosLedgerLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000070 /* KairosLedgerLocation.swift */; };
+		CA0000000000000000000073 /* KairosMessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000072 /* KairosMessageRow.swift */; };
+		CA0000000000000000000075 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0000000000000000000074 /* OnboardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA0000000000000000000001 /* KairosModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KairosModels.swift; path = kairos-app-src/KairosModels.swift; sourceTree = "<group>"; };
+		CA0000000000000000000002 /* KairosStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KairosStore.swift; path = kairos-app-src/KairosStore.swift; sourceTree = "<group>"; };
+		CA0000000000000000000003 /* KairosSyncEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KairosSyncEngine.swift; path = kairos-app-src/KairosSyncEngine.swift; sourceTree = "<group>"; };
+		CA0000000000000000000004 /* BeingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BeingClient.swift; path = kairos-app-src/BeingClient.swift; sourceTree = "<group>"; };
+		CA0000000000000000000005 /* KairosWorkspace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KairosWorkspace.swift; path = kairos-app-src/KairosWorkspace.swift; sourceTree = "<group>"; };
+		CA0000000000000000000006 /* KairosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KairosApp.swift; path = kairos-ios-src/KairosApp.swift; sourceTree = "<group>"; };
+		CA0000000000000000000007 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RootView.swift; path = kairos-ios-src/RootView.swift; sourceTree = "<group>"; };
+		CA0000000000000000000008 /* LaneListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LaneListView.swift; path = kairos-ios-src/LaneListView.swift; sourceTree = "<group>"; };
+		CA0000000000000000000009 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ItemDetailView.swift; path = kairos-ios-src/ItemDetailView.swift; sourceTree = "<group>"; };
+		CA0000000000000000000011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = kairos-ios-src/Assets.xcassets; sourceTree = "<group>"; };
+		CA0000000000000000000012 /* Kairos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kairos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0000000000000000000042 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = kairos-ios-src/SettingsView.swift; sourceTree = "<group>"; };
+		CA0000000000000000000056 /* ItemsCompose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ItemsCompose.swift; path = kairos-ios-src/ItemsCompose.swift; sourceTree = "<group>"; };
+		CA0000000000000000000058 /* CloudWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CloudWatcher.swift; path = kairos-ios-src/CloudWatcher.swift; sourceTree = "<group>"; };
+		CA0000000000000000000044 /* SharedProjectionFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SharedProjectionFile.swift; path = kairos-app-src/SharedProjectionFile.swift; sourceTree = "<group>"; };
+		CA0000000000000000000048 /* KairosRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KairosRooms.swift; path = kairos-app-src/KairosRooms.swift; sourceTree = "<group>"; };
+		CA0000000000000000000062 /* KairosMarkdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KairosMarkdown.swift; path = kairos-app-src/KairosMarkdown.swift; sourceTree = "<group>"; };
+		CA0000000000000000000050 /* KairosOutbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KairosOutbox.swift; path = kairos-app-src/KairosOutbox.swift; sourceTree = "<group>"; };
+		CA0000000000000000000046 /* KairosLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KairosLedger.swift; path = kairos-app-src/KairosLedger.swift; sourceTree = "<group>"; };
+		CA0000000000000000000060 /* KairosLedgerRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KairosLedgerRound.swift; path = kairos-app-src/KairosLedgerRound.swift; sourceTree = "<group>"; };
+		CA0000000000000000000070 /* KairosLedgerLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KairosLedgerLocation.swift; path = kairos-app-src/KairosLedgerLocation.swift; sourceTree = "<group>"; };
+		CA0000000000000000000072 /* KairosMessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KairosMessageRow.swift; path = kairos-app-src/KairosMessageRow.swift; sourceTree = "<group>"; };
+		CA0000000000000000000074 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OnboardingView.swift; path = kairos-ios-src/OnboardingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA0000000000000000000031 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA0000000000000000000024 = {
+			isa = PBXGroup;
+			children = (
+				CA0000000000000000000025 /* Shared */,
+				CA0000000000000000000026 /* Kairos */,
+				CA0000000000000000000027 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA0000000000000000000025 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CA0000000000000000000001 /* KairosModels.swift */,
+				CA0000000000000000000002 /* KairosStore.swift */,
+				CA0000000000000000000003 /* KairosSyncEngine.swift */,
+				CA0000000000000000000004 /* BeingClient.swift */,
+				CA0000000000000000000005 /* KairosWorkspace.swift */,
+				CA0000000000000000000044 /* SharedProjectionFile.swift */,
+				CA0000000000000000000048 /* KairosRooms.swift */,
+				CA0000000000000000000062 /* KairosMarkdown.swift */,
+				CA0000000000000000000050 /* KairosOutbox.swift */,
+				CA0000000000000000000046 /* KairosLedger.swift */,
+				CA0000000000000000000072 /* KairosMessageRow.swift */,
+				CA0000000000000000000060 /* KairosLedgerRound.swift */,
+				CA0000000000000000000070 /* KairosLedgerLocation.swift */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		CA0000000000000000000026 /* Kairos */ = {
+			isa = PBXGroup;
+			children = (
+				CA0000000000000000000006 /* KairosApp.swift */,
+				CA0000000000000000000007 /* RootView.swift */,
+				CA0000000000000000000008 /* LaneListView.swift */,
+				CA0000000000000000000009 /* ItemDetailView.swift */,
+				CA0000000000000000000042 /* SettingsView.swift */,
+				CA0000000000000000000056 /* ItemsCompose.swift */,
+				CA0000000000000000000058 /* CloudWatcher.swift */,
+				CA0000000000000000000074 /* OnboardingView.swift */,
+				CA0000000000000000000011 /* Assets.xcassets */,
+			);
+			name = Kairos;
+			sourceTree = "<group>";
+		};
+		CA0000000000000000000027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA0000000000000000000012 /* Kairos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA0000000000000000000028 /* Kairos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0000000000000000000038;
+			buildPhases = (
+				CA0000000000000000000030,
+				CA0000000000000000000031,
+				CA0000000000000000000032,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = Kairos;
+			productName = Kairos;
+			productReference = CA0000000000000000000012 /* Kairos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA0000000000000000000029 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+			};
+			buildConfigurationList = CA0000000000000000000037;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA0000000000000000000024;
+			productRefGroup = CA0000000000000000000027 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA0000000000000000000028 /* Kairos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA0000000000000000000032 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+				CA0000000000000000000023 /* Assets.xcassets in Resources */,
+			); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA0000000000000000000030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0000000000000000000013 /* KairosModels.swift in Sources */,
+				CA0000000000000000000014 /* KairosStore.swift in Sources */,
+				CA0000000000000000000015 /* KairosSyncEngine.swift in Sources */,
+				CA0000000000000000000016 /* BeingClient.swift in Sources */,
+				CA0000000000000000000017 /* KairosWorkspace.swift in Sources */,
+				CA0000000000000000000045 /* SharedProjectionFile.swift in Sources */,
+				CA0000000000000000000049 /* KairosRooms.swift in Sources */,
+				CA0000000000000000000063 /* KairosMarkdown.swift in Sources */,
+				CA0000000000000000000051 /* KairosOutbox.swift in Sources */,
+				CA0000000000000000000047 /* KairosLedger.swift in Sources */,
+				CA0000000000000000000073 /* KairosMessageRow.swift in Sources */,
+				CA0000000000000000000061 /* KairosLedgerRound.swift in Sources */,
+				CA0000000000000000000071 /* KairosLedgerLocation.swift in Sources */,
+				CA0000000000000000000018 /* KairosApp.swift in Sources */,
+				CA0000000000000000000019 /* RootView.swift in Sources */,
+				CA0000000000000000000020 /* LaneListView.swift in Sources */,
+				CA0000000000000000000021 /* ItemDetailView.swift in Sources */,
+				CA0000000000000000000043 /* SettingsView.swift in Sources */,
+				CA0000000000000000000057 /* ItemsCompose.swift in Sources */,
+				CA0000000000000000000059 /* CloudWatcher.swift in Sources */,
+				CA0000000000000000000075 /* OnboardingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CA0000000000000000000033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_CFBundleDisplayName = Kairos;
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_FILE = "kairos-ios-src/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				MARKETING_VERSION = 2.5.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kairos.app;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_NAME = Kairos;
+				PRODUCT_MODULE_NAME = Kairos;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		CA0000000000000000000034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_CFBundleDisplayName = Kairos;
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_FILE = "kairos-ios-src/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				MARKETING_VERSION = 2.5.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kairos.app;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_NAME = Kairos;
+				PRODUCT_MODULE_NAME = Kairos;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CA0000000000000000000035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			};
+			name = Debug;
+		};
+		CA0000000000000000000036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA0000000000000000000037 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0000000000000000000035 /* Debug */,
+				CA0000000000000000000036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0000000000000000000038 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0000000000000000000033 /* Debug */,
+				CA0000000000000000000034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = CA0000000000000000000029 /* Project object */;
+}
